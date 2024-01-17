@@ -19,7 +19,7 @@
 listagem = ('lapis', 1.75,'borracha', 2,'caderno', 10,'estojo', 1.75,'livros', 1.75,
             'transferido', 1.75,'compasso', 1.75,'mochila', 50,'canetas', 1.75,)
 print('_' * 40)
-print(f'{"LISTAGEM DE PRESÇOS":^40}')   # centralizado
+print(f'{"LISTAGEM DE PREÇOS":^40}')   # centralizado
 for pos in range(0, len(listagem)):
     if pos % 2 == 0:
         print(f'{listagem[pos]:.<30}', end='')
